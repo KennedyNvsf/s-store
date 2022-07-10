@@ -7,7 +7,7 @@ const HeroBanner = ({heroBanner}) => {
 
   return (
 
-    <div className="hero-banner-container">
+    <div className="hero-banner-container" key={heroBanner._id}>
      <div className="beats-solo">
       <p>{heroBanner.smallText}</p>
       <h3>{heroBanner.midText}</h3>
